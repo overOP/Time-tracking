@@ -29,7 +29,7 @@ const rawData = {
   ]
 };
 
-export default function App() {
+const App = () => {
   const [activeTab, setActiveTab] = useState("weekly");//activeTab is used to store the currently active tab
   const timeData = rawData[activeTab];// timeData is used to store the data for the currently active tab
   // rawData[activeTab] is used to get the data for the currently active tab
@@ -61,3 +61,4 @@ export default function App() {
     </div>
   );
 }
+export default App;

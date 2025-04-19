@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function TimeCard({ item }) {
+const TimeCard = ({ item }) => {
   return (
     <div className="rounded-2xl overflow-hidden relative">
       {/* Icon background */}
@@ -22,3 +22,4 @@ export default function TimeCard({ item }) {
     </div>
   );
 }
+export default TimeCard;
